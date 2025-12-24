@@ -28,7 +28,7 @@ Enjoy seamless profile switching! 🚀🐉
 
 1. Install **AutoHotkey v2** (free) from [autohotkey.com](https://www.autohotkey.com/).
 2. Download the latest release from GitHub.
-3. Extract the files and run `XB_Redragon_Profile_Manager.exe`.
+3. Extract the files and run `XB_Redragon_Profile_Manager.ahk or exe`.
 
 ## ⚙️ Setup (First Time Only)
 

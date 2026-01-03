@@ -1,10 +1,6 @@
-![XB Redragon Logo](images/XBRedragonBanner2.png)
-
 # 🐉 XB Redragon Profile Manager
 
 **by eXBonez (Richard Bruno)**
-
-![XB Redragon Logo2](images/_XBRedragonDONE.png)
 
 🐭⌨️ A simple yet powerful **AutoHotkey v2** tool to automate profile loading for Redragon mice and keyboards (e.g., M913 Impact) — and **any other software** with a GUI "Import/Load" button.
 
@@ -30,7 +26,6 @@ Enjoy seamless profile switching! 🚀🐉
 
 ## 📥 Installation
 
-** (The Compiled EXE does not require AHK to be installed) **
 1. Install **AutoHotkey v2** (free) from [autohotkey.com](https://www.autohotkey.com/).
 2. Download the latest release from GitHub.
 3. Extract the files and run `XB_Redragon_Profile_Manager.ahk or exe`.
@@ -65,8 +60,3 @@ Always back up your original profiles before using this tool.
 > If you come up with a better fix, feel free to fork and contribute! 🔧
 
 — **eXBonez** 🐉
-
-![Screenshot](screenshots/Screenshot1.png)
-![Screenshot](screenshots/Screenshot2.png)
-![Screenshot](screenshots/Screenshot3.png)
-![Screenshot](screenshots/Screenshot4.png)

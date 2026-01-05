@@ -11,21 +11,6 @@
 ; Date        : 2026-01-04
 ; ============================================================
 
-; --- Static Date Auto‑Updater ---
-scriptFile := A_ScriptFullPath
-fileContent := FileRead(scriptFile)
-
-today := FormatTime(A_Now, "yyyy-MM-dd")
-
-if RegExMatch(fileContent, "Date\s*:\s*(.*)", &m) {
-    newContent := RegExReplace(fileContent, "Date\s*:\s*(.*)", "Date        : 2026-01-04
-    if (newContent != fileContent) {
-        FileDelete(scriptFile)
-        FileAppend(newContent, scriptFile)
-    }
-}
-; --- End Auto‑Updater ---
-
 SetWorkingDir A_ScriptDir
 
 gamesFile := A_ScriptDir . "\games.ini"
@@ -844,6 +829,33 @@ LaunchGameByName(cliGameName) {
         }
         ; If closeManager = 0, DON'T ExitApp - stay open
     }
+}
+
+; ===== Custom function: StrTitle (Title Case function) =====
+StrTitle(str) {
+    ; Convert string to title case (first letter of each word capitalized)
+    if (str = "")
+        return ""
+    
+    ; Split into words
+    words := StrSplit(str, A_Space)
+    result := ""
+    
+    for index, word in words {
+        if (word = "")
+            continue
+            
+        ; Capitalize first letter, lowercase the rest
+        firstChar := SubStr(word, 1, 1)
+        restOfWord := SubStr(word, 2)
+        
+        firstChar := StrUpper(firstChar)
+        restOfWord := StrLower(restOfWord)
+        
+        result .= (result != "" ? A_Space : "") . firstChar . restOfWord
+    }
+    
+    return result
 }
 
 mainGui := Gui("+Resize +MinSize525x750 -Theme +OwnDialogs", "Device GUI Manager")

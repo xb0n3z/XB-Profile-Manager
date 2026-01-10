@@ -1,6 +1,6 @@
 ![XB Dragon Logo](images/XBRedragonBanner2.png)
 
-# 🐉 XB Redragon Profile Manager
+# 🐉 XB Profile Manager
 
 **by eXBonez (R. Bruno)**
 

@@ -1,0 +1,42 @@
+Did you just get a low cost, great performance, budget mouse/keyboard that is awesome?  Did you load the software and realize that it pretty much blows for loading profiles for many different games?  Well I just made the solution!
+
+I came from years of using the high end hardware, where the software would automatically detect game launches and switch your buttons to do whatever you assigned for each game and automatically switch them.  But with these cheaper devices, the software usually requires you to open the program, click the import buttons, select your profile, then close the program, then launch your game..... zzzz....   Oh.. wait now I want to play another game.. REPEAT!! That's a lot of tedium just to use your gaming hardware for games.
+
+I was too lazy to click all those button but not too lazy to spend many hours working on a program to make all that go away.
+
+Introducing XB Profile Manager!   The basic's of this tool is to manage a list of games and have your profile assignments automatically applied to the hardware then launch the game.   It doesn't autodetect the game but it will make shortcut icons for you that you can just launch from desktop to do everything in one shot!
+
+Because most of the budget profile software doesn't allow command line imports and you have to do everything manually with mouse clicks, this will record your mouse click positions allowing custom timing to remember for each app to allow you to get to the import button and will automatically load the profile you assigned to that game.
+
+Lots of hard work and testing went into this so I hope you enjoy it.   It's not rocket science, but it sure makes it a lot easier to have a lot of custom profiles for a lot of different games that you play.
+
+Check it out here!
+
+https://github.com/xb0n3z/XB-Profile-Manager
+
+Version 1.3 is out.. BIG UPDATE
+
+🐉 XB Redragon Profile Manager
+🐭⌨️ A simple yet powerful AutoHotkey v2 tool to automate profile loading for Redragon mice and keyboards (e.g., M913 Impact) — and any other software with a GUI "Import/Load" button.
+
+## 🚀 Key Features
+
+- ⚡ **Auto profile import** when launching games — no more manual clicks!
+- 🖱️ **Create desktop shortcuts** — double-click to launch any game with its custom profile loaded instantly.
+- 📁 **Unlimited profiles** — organize with powerful search, notes, and one-click backups.
+- 🖥️ **Multiple Device Support** — manage different hardware devices (mice, keyboards) in one interface!
+- 🔄 **Multi-Click Import Support** — capture sequences of multiple clicks for complex import workflows!
+- 📝 **Profile/game notes** — add personal reminders or setup tips for each entry.
+- 🎯 **Per-game settings** — custom delays, launch tracking, and last-played timestamps.
+- 📊 **Launch tracking** — see when games were last played (with smart sorting options).
+- 🎛️ **Customizable sorting** — alphabetical, by added date, or last played.
+- ⚙️ **Universal "Import" button capture** — works with **any** software (Redragon, Logitech, Razer, etc.) — just hover + F8!
+- 🛡️ **One-click backups** — safely copy profiles to prevent loss.
+- 🪶 **Lightweight & fully portable** — runs from anywhere, no admin rights or installation needed (beyond AutoHotkey v2).
+- 🌐 **No dependencies** — completely standalone and easy to share.
+- 🎨 **Custom Color Theme Picker** — change the app's look to anything you want — even paste HEX codes!
+- 🔍 **Powerful search & filtering** — quickly find any game or profile by name.
+- ⚡ **CLI Mode** — launch games directly from command line or batch scripts!
+- 🚨 **Smart Error Handling** — clear warnings when device software isn't properly loaded!
+
+Enjoy seamless profile switching! 🚀🐉

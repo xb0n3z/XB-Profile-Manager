@@ -1,7 +1,7 @@
 ![XB Dragon Logo](images/XBRedragonBanner2.png)
 
 # 🐉 XB Profile Manager
-
+**I plan on migrating to Autoit3 for better GUI interface**
 **by eXBonez (R. Bruno)**
 
 ![XB Dragon Logo](images/_XBRedragonDONE.png)
@@ -29,13 +29,14 @@ Perfect for MMO gamers who switch complex macros between games! 🎮⚔️
 - 🔄 **Multi-Click Import Support** — capture sequences of multiple clicks for complex import workflows!
 - ⚡ **CLI Mode** — launch games directly from command line or batch scripts!
 - 🚨 **Smart Error Handling** — clear warnings when device software isn't properly loaded!
+- 🚨 **AHK Anti-Cheat Friendly** — When loading games closes AHK BEFORE loading game to avoid any AntiCheat errors!
 
 Enjoy seamless profile switching! 🚀🐉
 
 ## 📥 Installation
 You can skip step 1 if you use the exe file instead of the AHK
 1. Install **AutoHotkey v2** (free) from [autohotkey.com](https://www.autohotkey.com/).
-2. Download the latest release from GitHub.
+2. Download the latest release XB Profile Manager from GitHub.
 3. Extract the files and run `XB_GUI_Profile_Manager.ahk or exe`.
 
 ## ⚙️ Setup (First Time Only)

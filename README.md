@@ -23,7 +23,7 @@ Perfect for MMO gamers who switch complex macros between games! 🎮⚔️
 - ⚙️ **Universal "Import" button capture** — works with **any** software (Redragon, Logitech, Razer, etc.) — just hover + F8!
 - 🛡️ **One-click backups** — safely copy profiles to prevent loss.
 - 🪶 **Lightweight & fully portable** — runs from anywhere, no admin rights or installation needed (beyond AutoHotkey v2).
-- 🌐 **No dependencies** — completely standalone and easy to share.
+- 🌐 **No dependencies** — completely standalone and easy to share if running complied exe.
 - 🎨 **Custom Color Theme Picker** — change the app's look to anything you want — even paste HEX codes!
 - 🖥️ **Multiple Device Support** — manage different hardware devices (mice, keyboards) in one interface!
 - 🔄 **Multi-Click Import Support** — capture sequences of multiple clicks for complex import workflows!
